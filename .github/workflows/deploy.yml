@@ -32,7 +32,11 @@ jobs:
 
     - name: Get version from package.json
       id: version
-      run: echo "VERSION=$(node -p \"require('./package.json').version\")" >> $GITHUB_ENV
+      run: |
+        VERSION=$(node -p "require('./package.json').version")
+        echo "VERSION=$VERSION" >> $GITHUB_ENV
+      working-directory: app
+
 
     - name: Log in to Docker Hub
       uses: docker/login-action@v3
