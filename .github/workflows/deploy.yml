@@ -52,10 +52,10 @@ jobs:
       uses: appleboy/ssh-action@v1.0.3
       with:
         host: ${{ secrets.EC2_HOST }}
-        username: ${{ env.EC2_USER }}
+        username: ubuntu
         key: ${{ secrets.EC2_SSH_KEY }}
         script: |
-          docker pull $DOCKER_IMAGE:${{ env.VERSION }}
-          docker stop $CONTAINER_NAME || true
-          docker rm $CONTAINER_NAME || true
-          docker run -d --name $CONTAINER_NAME -p 3000:3000 $DOCKER_IMAGE:${{ env.VERSION }}
+           docker pull $DOCKER_IMAGE:${{ env.VERSION }}
+           docker stop $CONTAINER_NAME || true
+           docker rm $CONTAINER_NAME || true
+           docker run -d --name $CONTAINER_NAME -p 3000:3000 $DOCKER_IMAGE:${{ env.VERSION }}
