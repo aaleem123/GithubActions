@@ -7,7 +7,7 @@ on:
 
 env:
   DOCKER_IMAGE: aaleem1993/twnprojectjenkins
-  CONTAINER_NAME: twnproject-container
+  CONTAINER_NAME: twn-app-container
   EC2_HOST: ${{ secrets.EC2_HOST }}
   EC2_USER: ubuntu
 
