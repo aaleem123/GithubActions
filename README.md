@@ -4,12 +4,14 @@
 - ✅ Deploying the app to a remote server via GitHub Actions
 - ✅ Full CI/CD pipeline for containerized applications
 
+
 **🌍 Project Overview**
 - 🚀 Automated builds & tests on every code push
 - 🐳 Dockerized Node.js application
 - 🤖 GitHub Actions pipeline for seamless CI/CD
 - 📦 Docker image published to Docker Hub
 - 🔐 Secure remote server deployment with SSH
+
 
 **⚙️ Prerequisites**
 - ✅ GitHub repository created
