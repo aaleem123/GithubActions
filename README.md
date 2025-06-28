@@ -1,6 +1,24 @@
-GithubActions Project.
+**🟢 Node.js Application with GitHub Actions CI/CD**
+- ✅ Building and testing a Node.js application
+- ✅ Automating Docker image creation and push to Docker Hub
+- ✅ Deploying the app to a remote server via GitHub Actions
+- ✅ Full CI/CD pipeline for containerized applications
 
-Here are the screenshots for the project.
+**🌍 Project Overview**
+- 🚀 Automated builds & tests on every code push
+- 🐳 Dockerized Node.js application
+- 🤖 GitHub Actions pipeline for seamless CI/CD
+- 📦 Docker image published to Docker Hub
+- 🔐 Secure remote server deployment with SSH
+
+**⚙️ Prerequisites**
+- ✅ GitHub repository created
+- ✅ Docker Hub account
+- ✅ SSH access to your remote server
+- ✅ Docker installed on the remote server
+- ✅ GitHub repository secrets configured
+
+**🎨 Screenshots**
 
 ![Screenshot 2025-06-21 024236](https://github.com/user-attachments/assets/c1069129-910b-46b1-95bc-93f7d8044074)
 
