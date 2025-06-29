@@ -1,5 +1,6 @@
 
-                         <img width="158" alt="images" src="https://github.com/user-attachments/assets/2a5c0580-93a2-4a46-ad6b-9e7cef6d0858" />
+<img width="158" alt="images" src="https://github.com/user-attachments/assets/fe53b448-b25a-42ec-8773-78673d051c37" />
+
 
 **🟢 Node.js Application with GitHub Actions CI/CD**
 - ✅ Building and testing a Node.js application
