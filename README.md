@@ -1,3 +1,6 @@
+
+<img width="158" alt="images" src="https://github.com/user-attachments/assets/2a5c0580-93a2-4a46-ad6b-9e7cef6d0858" />
+
 **🟢 Node.js Application with GitHub Actions CI/CD**
 - ✅ Building and testing a Node.js application
 - ✅ Automating Docker image creation and push to Docker Hub
